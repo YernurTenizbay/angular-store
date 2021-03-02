@@ -10,8 +10,14 @@ import {category} from '../category';
 export class ProductListComponent implements OnInit{
   constructor(private route: ActivatedRoute,){}
   categorys;
+  product;
   products = products;
-  
+  liked(){
+    this.product.likes=this.product.likes+1;
+  }
+  remove(){
+    this.product.id=0;
+  }
 
   share() {
     window.alert('The product has been shared!');

@@ -11,6 +11,8 @@
       
     </h3>
     <p *ngIf="product.likes"> Likes: {{product.likes}} </p>
+    <button type="submit" (click)="liked()"> Like </button>
+    <button type="submit" (click)="remove()"> Delete </button>
     <p *ngIf="product.description">
       Description: {{ product.description }}
     </p>
