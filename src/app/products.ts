@@ -1,6 +1,7 @@
 export const products = [
   {
     cid:1,
+    ccid:1,
     id: 1,
     
     name: 'iPhone XR',
@@ -11,6 +12,7 @@ export const products = [
     image:'https://m.media-amazon.com/images/I/51n24DedexL._FMwebp__.jpg',
   },
   { cid:1,
+    ccid:1,
     id: 2,
     name: 'iPhone 12 Mini',
     price: 699,
@@ -20,6 +22,7 @@ export const products = [
     image:'https://m.media-amazon.com/images/I/71uuDYxn3XL._FMwebp__.jpg',
   },
   { cid:1,
+    ccid:1,
     id: 3,
     name: 'Xiaomi Redmi Note 9S',
     price: 299,
@@ -29,6 +32,7 @@ export const products = [
     image:'https://images-na.ssl-images-amazon.com/images/I/61UnStT8VfL._AC_SL1000_.jpg',
   },
   { cid:1,
+    ccid:1,
     id: 4,
     name: 'Samsung Galaxy S20 FE 5G',
     price: 299,
@@ -38,6 +42,7 @@ export const products = [
     image:'https://images-na.ssl-images-amazon.com/images/I/71z2dc%2BXnrL._AC_SL1500_.jpg',
   },
   { cid:1,
+    ccid:1,
     id: 5,
     name: 'Xiaomi Redmi Note 8',
     price: 299,
@@ -48,6 +53,7 @@ export const products = [
   },
   { 
     cid:2,
+    ccid:2,
     id: 6,
     name: 'HP Chromebook 14',
     price: 299,
@@ -58,6 +64,7 @@ export const products = [
   },
   { 
     cid:2,
+    ccid:2,
     id: 7,
     name: 'Lenovo IdeaCentre AIO 3, 24"',
     price: 299,
@@ -68,6 +75,7 @@ export const products = [
   },
   { 
     cid:2,
+    ccid:2,
     id: 8,
     name: 'Dell OptiPlex 9020-SFF',
     price: 299,
@@ -78,6 +86,7 @@ export const products = [
   },
   { 
     cid:2,
+    ccid:2,
     id: 9,
     name: 'Lenovo Chromebook S330 Laptop',
     price: 299,
@@ -88,7 +97,7 @@ export const products = [
   },
   { 
     cid:2,
-    id: 10,
+    ccid:2,
     name: 'Acer Nitro 5 Gaming Laptop',
     price: 299,
     description: '',

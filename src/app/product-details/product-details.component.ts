@@ -15,7 +15,7 @@ export class ProductDetailsComponent implements OnInit {
     this.product.likes=this.product.likes+1;
   }
   remove(){
-    this.product.id=0;
+    this.product.cid=5;
   }
   constructor(
     private route: ActivatedRoute,
