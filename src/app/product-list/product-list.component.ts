@@ -12,11 +12,11 @@ export class ProductListComponent implements OnInit{
   categorys;
   product;
   products = products;
-  liked(){
-   
+  liked(likes){
+   return likes+1;
   }
   remove(){
-    
+    return 5;
   }
 
   share() {
